@@ -1,0 +1,202 @@
+/*
+Title:	CSS SeeChange Health Member Portal 2014
+Author: Chevas Balloun - cballoun@seechangehealth.com
+Version: 1
+
+/* =Reset default browser CSS. 
+-------------------------------------------------------------- */
+
+	
+
+	
+
+	/* Card Ddesign */
+		
+		/* Flippable Cards */
+		.card { width: 300px; margin: 15px; float: left; box-shadow: 0 0 3px #bbbdbf; border-radius: 3px; font-size: 14px; float: left; position: relative; line-height: 20px; min-height: 50px;
+			box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; }
+		.card .front { background: #fff; padding: 10px 20px 20px 20px; }
+		.card .back { background: #37393c; padding: 10px 20px 20px 20px; color: #e1e3e6;
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjIlIiBzdG9wLWNvbG9yPSIjMzczOTNjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRiNGQ1MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+			background: -moz-linear-gradient(45deg,  #37393c 2%, #4b4d50 100%);
+			background: -webkit-gradient(linear, left bottom, right top, color-stop(2%,#37393c), color-stop(100%,#4b4d50));
+			background: -webkit-linear-gradient(45deg,  #37393c 2%,#4b4d50 100%);
+			background: -o-linear-gradient(45deg,  #37393c 2%,#4b4d50 100%);
+			background: -ms-linear-gradient(45deg,  #37393c 2%,#4b4d50 100%);
+			background: linear-gradient(45deg,  #37393c 2%,#4b4d50 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37393c', endColorstr='#4b4d50',GradientType=1 ); }
+		
+		.card .back.size13 p { padding-bottom: 20px; }
+		.card .back.size13 p.nopad, .card .back.size13 p.pclear, .card .back.size13 p.nobot  { padding: 0px; }
+		.card h4, .cardwrap h4 { font-size: 20px; line-height: 24px; width: 100%; font-weight: normal; z-index: 10; position: relative;
+			box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; }
+		.card .back .info { display: none; }
+		
+		/* card columns */
+		.card-column { width: 183px; margin-right: 20px; float: left; }
+		.card-column.last { width: 184px; margin-right: 0; }
+		
+		/* Non Flippable Version */
+		.cardwrap { width: 300px; margin: 15px 0; background: #fff; border: 1px solid #bbbdbf; position: relative; overflow: hidden; border-radius: 3px; font-size: 14px;
+			box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; line-height: 20px; float: left; }
+			/* card columns */
+			.card-column { width: 33%; padding-right: 20px; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; }
+			.card-column.last { padding-right: 0; }
+			
+			.cardstripe { width: 100%; height: 50px; float: left; color: #222; font-size: 13px; font-weight: 600; line-height: 28px; padding: 14px 20px 0 20px; z-index: 10;
+				border-bottom: 1px solid #dcdfe1;
+				box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; overflow: hidden; position: relative;  background-color: #F5F5F5;}
+			.cardstripe.bottom { bottom: 0; top: auto; }
+			.cardstripe a { color: #fff; position: relative; z-index: 10; }
+			.cardstripe a:hover { color: #f0f0f0; }
+			.cardstripe.thin { height: 50px;  }
+			a.card-link { position: absolute; top: 0; right: 0; z-index: 20; font-size: 20px; height: 30px; color: #fff; padding-left: 12px; font-weight: bold;
+				line-height: 28px; }
+			a.card-link:hover { color: #f0f0f0; }
+			.cardwrap img, .card img { max-width: 100%; }
+			
+		.card-content, .cover-content { position: absolute; top: 50px; right: 0; left: 0; bottom: 0; padding: 20px 20px 20px 20px; display: block;
+			box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; }
+		.card-content.ha { top: 45px; }
+		.cover-content { cursor: pointer; color: #fff; font-size: 16px; }
+		.cover-content.choices { cursor: default; }
+		.card-content.nostripe { top: 0; }
+		.card-content.nopad { padding: 0; }
+		
+		.card-content.thin { top: 50px; }
+		.card-content { background: #fff; color: #333; }
+		.card-cover, .infofront, .morefront { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+			.infofront, .morefront { padding: 16px 20px 20px 20px; cursor: pointer; }
+			.morefront { background: #fff; }
+		
+	/* Card Sizes */
+		.card .withicon, .cardwrap .withicon { padding-right: 30px; }
+		.cardwrap img.graph, .card img.graph { width: 100%; float: left; }
+		
+		.cardwrap.wide, .card.wide { width: 70%; min-width:350px}
+		.cardwrap.medium, .card.medium { width: 410px; }
+		.cardwrap.table, .card.table { padding: 30px 0 20px 0; }
+		.cardwrap.table h4 { padding: 0 20px 0 20px; }
+		.cardwrap.table p { width: 100%; padding: 0 20px 24px 20px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; }
+		
+		.cardicon { position: absolute; right: 20px; top: 40px; }
+		.cardicon.bottom { right: 0; top: 10px; }
+		
+		.cardwrap ul, .card ul, .cardwrap ol, .card ol { width: 100%; padding-bottom: 24px; }
+		.cardwrap ul:last-child, .card ul:last-child, .cardwrap ol:last-child, .card ol:last-child, .cardwrap p:last-child, .card p:last-child { padding-bottom: 0; }
+		.cardwrap ul li, .card ul li, .cardwrap ol li, .card ol li { margin-left: 20px; list-style-type: square; margin-top: 10px; }
+		.cardwrap ol li, .card ol li { list-style-type: decimal; }
+		.cardwrap ul.status-list li, .card ul.status-list li, .cardwrap ol.status-list li, .card ol.status-list li { margin-left: 0; list-style-type: none; }	
+		
+		.stat-bar { width: 100%; height: 20px; background: #e1e1e1; float: right; position: relative; }
+		.stat-bar.ha { width: 525px; float: right; }
+			.stat-progress { position: absolute; left: 0; top: 0; height: 20px; background: #6cb33f; width: 50%; }
+			.stat-progress.chronic { width: 33%; background: #593c80; }
+				
+		/* Health Actions Summary */
+		.summary { float: left; width: 100%; }
+			.summary-inside { margin-top: 5px; border-top: 1px solid #e8eaed; padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #e8eaed; float: left; }
+			.cardwrap.table .summary { padding: 0 20px 20px 20px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; }
+			.card.table .summary { padding: 0 0 20px 0px; }
+		.summary-circle { width: 54px; height: 54px; border-radius: 27px; background: #6bc04b; text-align: center; z-index: 10; position: relative; float: left; }
+		.summary-circle.purple { background: #593c80; }
+			.summary-number { font-size: 30px; font-weight: bold; letter-spacing: -.04em; color: #fff;
+			width: 30px; height: 30px; top: 10px; left: 12px; position: absolute; line-height: 30px; text-align: center; }
+		.summary-text { float: left; width: 100%; line-height: 16px; }
+		.summary-text.completed { float: right; width: 195px; }
+		.summary-text.remaining { margin-top: 10px; }
+		.action-type { border-bottom: 1px solid #e8eaed; margin-top: 20px; margin-bottom: 10px; padding-bottom: 5px; width: 100%; float: left; font-weight: 800; text-transform: uppercase; }
+		.summary-bottom { position: relative; float: left; width: 100%; margin-top: 20px; margin-top: 20px; padding-top: 10px; }
+		
+		.summary-text.left { width: 285px; float: left; padding-left: 10px; font-size: 13px; }
+		.summary-text.right { width: 210px; float: right; font-size: 13px; margin-left: 20px; }
+		
+		.sideitem, .sideitem2 { margin-top: 5px; float: left; width: 100%; }
+		.sideitem2 { padding: 4px 0 0px 0; border-top: 1px dotted #e8eaed; }	
+			.item-left { width: 40%; float: left; }
+			.item-right { width: 58%; float: left; }
+			.icon-left { width: 13%; float: left; }
+			.text-right { width: 87%; float: right; }
+			
+		/* Medical / Dental */
+		.box-tabs { width: 300px; position: absolute; top: 70px; left: 0; }
+		.box-tab { width: 50%; float: left; height: 40px; line-height: 40px; background: #fff; border-top: 1px solid #e8eaed; border-bottom: 1px solid #e8eaed; border-right: 1px solid #e8eaed;
+			box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; font-weight: bold; 
+			background: #f0f2f5; }
+		.box-tab a { padding: 0 20px 0 20px; width: 100%; float: left; display: block;
+			box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; }
+		.box-tab a:hover { color: #929292; }
+		.box-tab.dental { border-left: 0; border-top-left-radius: 0; border-right: 0; }
+		.box-tab.active { border-bottom: 0; background: #fff; }
+		.box { margin-top: 70px; }		
+		ul.status-list li { margin-top: 5px; padding-top: 5px; border-top: 1px solid #e8eaed; width: 100%; float: left; }
+		
+		/* Health Actions Tables */
+		.periodwrap { position: absolute; top: 0px; right: 15px; font-size: 14px; line-height: 34px; width: 360px; }
+		select.period {  background: #fff; border: 1px solid #e8eaed; float: right; margin-left: 10px; }
+		select.period option { background: #fff; }
+		
+		/* Card Types */
+		/* Preventive & Chronic Health Actions Summary */
+		.card-flip.done { display: block; width: 100%; height: 100%; color: #e1e3e6; cursor: pointer; }
+		.card .back.white { background: #fff; color: #333; }
+		
+		.cardwrap.card1, .cardwrap.card2, .cardwrap.card3, .cardwrap.card4, .cardwrap.card5, .cardwrap.card6,.cardwrap.card7, .cardwrap.card8 { height: 437px; }
+			/*.cardwrap.card4 { height: 904px; }*/
+		#chart_membervisits, #chart_fitness, #chart_util, #chart_comp, #chart_ad, #chart_roi, #chart_engagement2, #chart_ha_engagement, #chart_bmi { margin-top: -79px; position: relative; z-index: 0; }
+			#chart_ad { margin-left: -95px; }
+			#chart_util { margin-left: -85px; }
+			#chart_comp { margin-left: 0; }
+			#chart_membervisits { margin-left: -55px; margin-top: -74px; }
+			#chart_fitness { margin-left: -90px; }
+			#chart_engagement2 { margin-left: -80px; margin-top: -74px; }
+			#chart_ha_engagement { margin-left: -80px; }
+			#chart_bmi { margin-left: -75px; margin-top: -79px; }
+			
+			select.ha-month { position: absolute; bottom: 20px; right: 20px; }
+	
+		
+		.done a, .done a:visited { color: #63c3f7; }
+		.done a:hover { color: #929292; }
+		.card .back a.button { color: #fff; }
+		
+	
+
+
+		
+	.activitySub {z-index: 1; position: relative; width:100%; height:19px; float:left;}
+		span.titleLeft {width:50%; text-align:center; float:left;}
+		span.titleRight {width:50%; text-align:center; float: left}
+	.chartrow {width:100%; float:left; margin:-10px 0 10px; padding:0;   position: relative;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  height: 97px;}
+	
+	/* This override fixes absolute positioned elements on the back side of cards in Chrome */
+	.card-container .fliphide { visibility:visible; opacity:1; transition:visibility 0s linear 0.2s,opacity 0.2s linear; -webkit-transition:visibility 0s linear 0.2s,opacity 0.2s linear; -moz-transition:visibility 0s linear 0.2s,opacity 0.2s linear; -o-transition:visibility 0s linear 0.2s,opacity 0.2s linear; }
+	.card-container.flipped-lr .fliphide { visibility:hidden; opacity:0; transition:visibility 0s linear 0.2s,opacity 0.2s linear; -webkit-transition:visibility 0s linear 0.2s,opacity 0.2s linear; -moz-transition:visibility 0s linear 0.2s,opacity 0.2s linear; -o-transition:visibility 0s linear 0.2s,opacity 0.2s linear; }
+
+	h4.twolines {margin-top:-12px;}
+	
+/* Media Queries for Responsive Design */
+
+/* iPhone [portrait + landscape] */
+@media only screen and ( max-device-width: 670px ) {
+
+}
+
+@media only screen and ( max-width: 1009px )  {
+	
+}
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1009px) {
+
+}
+
+/* Small Desktop View (~1000px wide) */
+@media screen and (min-width: 1010px) and (max-width: 1379px) {
+
+}	

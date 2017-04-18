@@ -1,0 +1,1951 @@
+[{
+    "risksAndConditions/diabetes": [{
+        "type": "<a href='#ccmedclaim' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2016",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (4548-4)",
+        "value": "6.5"
+    }],
+    "risksAndConditions/hypertension": [{
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "12/20/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "09/15/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#cclab' class='various'1>Medical Claim</a>",
+        "dateOfService": "01/12/2015",
+        "placeOfService": "GENERAL MEDICAL ASSOCIATES",
+        "code": "ICD10CM",
+        "value": "I10"
+    }],
+    "goalsAndActivities": [{
+        "severity": "",
+        "Assignment": "",
+        "points": "",
+        "completionDate": "",
+        "edit": ""
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Online Stress Course",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a href='#editAssignment' class='various'>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Build Nutrition Plan",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Walk 10,000 Steps Daily",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }],
+    "family": [{
+        "lastName": "Simmons",
+        "firstName": "Judy",
+        "memberID": "0022222201",
+        "dateOfBirth": "12/20/1964",
+        "relationship": "Subscriber",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>David</a>",
+        "memberID": "0022222202",
+        "dateOfBirth": "08/01/1963",
+        "relationship": "Spouse",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>Danny</a>",
+        "memberID": "0022222203",
+        "dateOfBirth": "06/01/1999",
+        "relationship": "Dependent",
+        "currentPreventiveCompliance": "Y",
+        "priorPreventiveCompliance": "Y"
+    }],
+    "messaging": [{
+        "date": "01/15/16",
+        "subject": "Thanks for Registering",
+        "message": "Registration Complete",
+        "method": "email"
+    }, {
+        "date": "01/01/16",
+        "subject": "Welcome to the Wellness Program",
+        "message": "Enrolled member welcome mailer",
+        "method": "Mail"
+    }],
+    "diagnoses": [{
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "diagnosisCode": "I10",
+        "diagnosis": "Essential (Primary) Hypertension",
+        "status": " <select id='diag-status'> <option>Valid</option> <option>Invalid</option></select> ",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "procedures": [{
+        "dateOfService": "02/02/2015",
+        "source": "Medical Claim",
+        "value": "G1021",
+        "code": "HCPCS",
+        "procedure": "Colorectal cancer screening; colonoscopy on individual not meeting the criteria for high risk",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/10/2015",
+        "provider": "CENTRAL PROVIDER GROUP"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "value": "99381",
+        "code": "CPT",
+        "procedure": "Physical Exam",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "provider": "GENERAL MEDICAL ASSOCIATES"
+    }],
+    "medicalClaims": [{
+        "dateOfService": "02/02/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5139648-20150202-189</a>",
+        "provider": "CENTRAL PROVIDER GROUP",
+        "claimStatus": "Valid",
+        "dateCreated": "02/10/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5080029-20150112-124</a>",
+        "provider": "GENERAL MEDICAL ASSOCIATES",
+        "claimStatus": "Valid",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "medialEvents/events": [{
+        "medicalEventID": "",
+        "serviceDate": "",
+        "diagnosisCode": "",
+        "procedureCode": "",
+        "iCD9Proc": "",
+        "createdBy": ""
+    }],
+    "medialEvents/diagnosis": [{
+        "diagnosisCode": "",
+        "diagnosisDescription": "",
+        "delete": ""
+    }, {
+        "diagnosisCode": "x",
+        "diagnosisDescription": "x",
+        "delete": "x"
+    }],
+    "medialEvents/procedures": [{
+        "id": "",
+        "description": "",
+        "modifier": "",
+        "type": "",
+        "delete": ""
+    }, {
+        "id": "x",
+        "description": "x",
+        "modifier": "x",
+        "type": "x",
+        "delete": "x"
+    }],
+    "pharmacyClaims": [{
+        "claimID": "<a class='showRXclaims'>0002193115</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "9/15/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }, {
+        "claimID": "<a class='showRXclaims'>0004992167</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "12/20/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }],
+    "labTestResults": [{
+        "dateOfService": "",
+        "source": "",
+        "cPTCode": "",
+        "cPTName": "",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "",
+        "status": "",
+        "dateCreated": "",
+        "createdBy": ""
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-SYST.BP",
+        "cPTName": "Systolic blood pressure",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "147",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-DIAS.BP",
+        "cPTName": "Diastolic blood pressure",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "95",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-WEIGHT",
+        "cPTName": "Weight in pounds",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "170",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-HEIGHT",
+        "cPTName": "Height in inches",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "64",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }],
+    "overrides/preventive": [{
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Health Risk Assessment",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Biometric Screening",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Preventive Exam",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Cervical Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Breast Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Colorectal Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/18/2015",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Adult BMI Assessment",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/12/2015",
+        "overrideLink": "-"
+    }],
+    "overrides/chronic": [{
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Doctor's Visit for Hypertension",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Lipid Profile",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Hemoglobin A1c",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Flu Shot",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }],
+    "healthscore": 442
+}, {
+    "risksAndConditions/diabetes": [{
+        "type": "<a href='#ccmedclaim' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2016",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (4548-4)",
+        "value": "6.5"
+    }],
+    "risksAndConditions/hypertension": [{
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "12/20/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "09/15/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#cclab' class='various'1>Medical Claim</a>",
+        "dateOfService": "01/12/2015",
+        "placeOfService": "GENERAL MEDICAL ASSOCIATES",
+        "code": "ICD10CM",
+        "value": "I10"
+    }],
+    "goalsAndActivities": [{
+        "severity": "",
+        "Assignment": "",
+        "points": "",
+        "completionDate": "",
+        "edit": ""
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Online Stress Course",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a href='#editAssignment' class='various'>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Build Nutrition Plan",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Walk 10,000 Steps Daily",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }],
+    "family": [{
+        "lastName": "Simmons",
+        "firstName": "Judy",
+        "memberID": "0022222201",
+        "dateOfBirth": "12/20/1964",
+        "relationship": "Subscriber",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>David</a>",
+        "memberID": "0022222202",
+        "dateOfBirth": "08/01/1963",
+        "relationship": "Spouse",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>Danny</a>",
+        "memberID": "0022222203",
+        "dateOfBirth": "06/01/1999",
+        "relationship": "Dependent",
+        "currentPreventiveCompliance": "Y",
+        "priorPreventiveCompliance": "Y"
+    }],
+    "messaging": [{
+        "date": "01/15/16",
+        "subject": "Thanks for Registering",
+        "message": "Registration Complete",
+        "method": "email"
+    }, {
+        "date": "01/01/16",
+        "subject": "Welcome to the Wellness Program",
+        "message": "Enrolled member welcome mailer",
+        "method": "Mail"
+    }],
+    "diagnoses": [{
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "diagnosisCode": "I10",
+        "diagnosis": "Essential (Primary) Hypertension",
+        "status": " <select id='diag-status'> <option>Valid</option> <option>Invalid</option></select> ",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "procedures": [{
+        "dateOfService": "02/02/2015",
+        "source": "Medical Claim",
+        "value": "G1021",
+        "code": "HCPCS",
+        "procedure": "Colorectal cancer screening; colonoscopy on individual not meeting the criteria for high risk",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/10/2015",
+        "provider": "CENTRAL PROVIDER GROUP"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "value": "99381",
+        "code": "CPT",
+        "procedure": "Physical Exam",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "provider": "GENERAL MEDICAL ASSOCIATES"
+    }],
+    "medicalClaims": [{
+        "dateOfService": "02/02/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5139648-20150202-189</a>",
+        "provider": "CENTRAL PROVIDER GROUP",
+        "claimStatus": "Valid",
+        "dateCreated": "02/10/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5080029-20150112-124</a>",
+        "provider": "GENERAL MEDICAL ASSOCIATES",
+        "claimStatus": "Valid",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "medialEvents/events": [{
+        "medicalEventID": "",
+        "serviceDate": "",
+        "diagnosisCode": "",
+        "procedureCode": "",
+        "iCD9Proc": "",
+        "createdBy": ""
+    }],
+    "medialEvents/diagnosis": [{
+        "diagnosisCode": "",
+        "diagnosisDescription": "",
+        "delete": ""
+    }, {
+        "diagnosisCode": "x",
+        "diagnosisDescription": "x",
+        "delete": "x"
+    }],
+    "medialEvents/procedures": [{
+        "id": "",
+        "description": "",
+        "modifier": "",
+        "type": "",
+        "delete": ""
+    }, {
+        "id": "x",
+        "description": "x",
+        "modifier": "x",
+        "type": "x",
+        "delete": "x"
+    }],
+    "pharmacyClaims": [{
+        "claimID": "<a class='showRXclaims'>0002193115</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "9/15/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }, {
+        "claimID": "<a class='showRXclaims'>0004992167</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "12/20/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }],
+    "labTestResults": [{
+        "dateOfService": "",
+        "source": "",
+        "cPTCode": "",
+        "cPTName": "",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "",
+        "status": "",
+        "dateCreated": "",
+        "createdBy": ""
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-SYST.BP",
+        "cPTName": "Systolic blood pressure",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "147",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-DIAS.BP",
+        "cPTName": "Diastolic blood pressure",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "95",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-WEIGHT",
+        "cPTName": "Weight in pounds",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "170",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-HEIGHT",
+        "cPTName": "Height in inches",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "64",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }],
+    "overrides/preventive": [{
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Health Risk Assessment",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "01/15/16",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Biometric Screening",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Preventive Exam",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Cervical Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Breast Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Colorectal Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/18/2015",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Adult BMI Assessment",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/12/2015",
+        "overrideLink": "-"
+    }],
+    "overrides/chronic": [{
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Doctor's Visit for Hypertension",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Lipid Profile",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Hemoglobin A1c",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Flu Shot",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }],
+    "healthscore": 472
+}, {
+    "risksAndConditions/diabetes": [{
+        "type": "<a href='#ccmedclaim' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2016",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (4548-4)",
+        "value": "6.5"
+    }],
+    "risksAndConditions/hypertension": [{
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "12/20/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "09/15/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#cclab' class='various'1>Medical Claim</a>",
+        "dateOfService": "01/12/2015",
+        "placeOfService": "GENERAL MEDICAL ASSOCIATES",
+        "code": "ICD10CM",
+        "value": "I10"
+    }],
+    "goalsAndActivities": [{
+        "severity": "",
+        "Assignment": "",
+        "points": "",
+        "completionDate": "",
+        "edit": ""
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Online Stress Course",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a href='#editAssignment' class='various'>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Build Nutrition Plan",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Walk 10,000 Steps Daily",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }],
+    "family": [{
+        "lastName": "Simmons",
+        "firstName": "Judy",
+        "memberID": "0022222201",
+        "dateOfBirth": "12/20/1964",
+        "relationship": "Subscriber",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>David</a>",
+        "memberID": "0022222202",
+        "dateOfBirth": "08/01/1963",
+        "relationship": "Spouse",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>Danny</a>",
+        "memberID": "0022222203",
+        "dateOfBirth": "06/01/1999",
+        "relationship": "Dependent",
+        "currentPreventiveCompliance": "Y",
+        "priorPreventiveCompliance": "Y"
+    }],
+    "messaging": [{
+        "date": "01/15/16",
+        "subject": "Thanks for Registering",
+        "message": "Registration Complete",
+        "method": "email"
+    }, {
+        "date": "01/01/16",
+        "subject": "Welcome to the Wellness Program",
+        "message": "Enrolled member welcome mailer",
+        "method": "Mail"
+    }],
+    "diagnoses": [{
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "diagnosisCode": "I10",
+        "diagnosis": "Essential (Primary) Hypertension",
+        "status": " <select id='diag-status'> <option>Valid</option> <option>Invalid</option></select> ",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "procedures": [{
+        "dateOfService": "02/02/2015",
+        "source": "Medical Claim",
+        "value": "G1021",
+        "code": "HCPCS",
+        "procedure": "Colorectal cancer screening; colonoscopy on individual not meeting the criteria for high risk",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/10/2015",
+        "provider": "CENTRAL PROVIDER GROUP"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "value": "99381",
+        "code": "CPT",
+        "procedure": "Physical Exam",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "provider": "GENERAL MEDICAL ASSOCIATES"
+    }],
+    "medicalClaims": [{
+        "dateOfService": "02/02/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5139648-20150202-189</a>",
+        "provider": "CENTRAL PROVIDER GROUP",
+        "claimStatus": "Valid",
+        "dateCreated": "02/10/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5080029-20150112-124</a>",
+        "provider": "GENERAL MEDICAL ASSOCIATES",
+        "claimStatus": "Valid",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "medialEvents/events": [{
+        "medicalEventID": "",
+        "serviceDate": "",
+        "diagnosisCode": "",
+        "procedureCode": "",
+        "iCD9Proc": "",
+        "createdBy": ""
+    }],
+    "medialEvents/diagnosis": [{
+        "diagnosisCode": "",
+        "diagnosisDescription": "",
+        "delete": ""
+    }, {
+        "diagnosisCode": "x",
+        "diagnosisDescription": "x",
+        "delete": "x"
+    }],
+    "medialEvents/procedures": [{
+        "id": "",
+        "description": "",
+        "modifier": "",
+        "type": "",
+        "delete": ""
+    }, {
+        "id": "x",
+        "description": "x",
+        "modifier": "x",
+        "type": "x",
+        "delete": "x"
+    }],
+    "pharmacyClaims": [{
+        "claimID": "<a class='showRXclaims'>0002193115</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "9/15/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }, {
+        "claimID": "<a class='showRXclaims'>0004992167</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "12/20/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }],
+    "labTestResults": [{
+        "dateOfService": "",
+        "source": "",
+        "cPTCode": "",
+        "cPTName": "",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "",
+        "status": "",
+        "dateCreated": "",
+        "createdBy": ""
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-SYST.BP",
+        "cPTName": "Systolic blood pressure",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "147",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-DIAS.BP",
+        "cPTName": "Diastolic blood pressure",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "95",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-WEIGHT",
+        "cPTName": "Weight in pounds",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "170",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-HEIGHT",
+        "cPTName": "Height in inches",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "64",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }],
+    "overrides/preventive": [{
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Health Risk Assessment",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "01/15/16",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Biometric Screening",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Preventive Exam",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Cervical Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Breast Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Colorectal Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/18/2015",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Adult BMI Assessment",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/12/2015",
+        "overrideLink": "-"
+    }],
+    "overrides/chronic": [{
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Doctor's Visit for Hypertension",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Lipid Profile",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Hemoglobin A1c",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Flu Shot",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }],
+    "healthscore": 482
+}, {
+    "risksAndConditions/diabetes": [{
+        "type": "<a href='#ccmedclaim' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2016",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (4548-4)",
+        "value": "6.5"
+    }],
+    "risksAndConditions/hypertension": [{
+        "type": "<a href='#ccmedevent' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2015",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (8480-6)",
+        "value": "145"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2015",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (8462-4)",
+        "value": "92"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "12/20/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "09/15/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#cclab' class='various'1>Medical Claim</a>",
+        "dateOfService": "01/12/2015",
+        "placeOfService": "GENERAL MEDICAL ASSOCIATES",
+        "code": "ICD10CM",
+        "value": "I10"
+    }],
+    "goalsAndActivities": [{
+        "severity": "",
+        "Assignment": "",
+        "points": "",
+        "completionDate": "",
+        "edit": ""
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Online Stress Course",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a href='#editAssignment' class='various'>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Build Nutrition Plan",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Walk 10,000 Steps Daily",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }],
+    "family": [{
+        "lastName": "Simmons",
+        "firstName": "Judy",
+        "memberID": "0022222201",
+        "dateOfBirth": "12/20/1964",
+        "relationship": "Subscriber",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>David</a>",
+        "memberID": "0022222202",
+        "dateOfBirth": "08/01/1963",
+        "relationship": "Spouse",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>Danny</a>",
+        "memberID": "0022222203",
+        "dateOfBirth": "06/01/1999",
+        "relationship": "Dependent",
+        "currentPreventiveCompliance": "Y",
+        "priorPreventiveCompliance": "Y"
+    }],
+    "messaging": [{
+        "date": "02/05/16",
+        "subject": "Diabetes Management Introduction",
+        "message": "The results from your recent health screening indicate your A1C is above 6.5%.  An A1C test estimates your average blood sugar levels over the past three months, and a value above 6.5% is considered diabetic. This is something we can work on together to ensure you live a long, healthy life...  ",
+        "method": "Email"
+    }, {
+        "date": "02/05/16",
+        "subject": "Biometric Screening Results",
+        "message": "Guess what, Judy? Your biometric results are in, and you just earned 500 points!",
+        "method": "Push Notification"
+    }, {
+        "date": "02/05/16",
+        "subject": "You Just Earned 500 Points: See Your Results",
+        "message": "Hi Judy, Nice work completing your biometric test! This important screening can detect conditions early - before they become big health problems - and early detection can lead to a healthier, longer life.",
+        "method": "Email"
+    }, {
+        "date": "01/22/16",
+        "subject": "Make this a new you new year!",
+        "message": "Five simple ways to help you shed those post-holiday pounds that actually work: Drink Water, Especially Before Meals. ... Eat Eggs For Breakfast. ... Drink Coffee (Preferably Black) ... Drink Green Tea. ... Cook With Coconut Oil ...",
+        "method": "Email"
+    }, {
+        "date": "01/18/16",
+        "subject": "Log In Today and Start Earning Points",
+        "message": "Let's get started! Log in now to start your journey to becoming a healthier you. It's so simple, we've created custom programs just for you... ",
+        "method": "Email"
+    }, {
+        "date": "01/15/16",
+        "subject": "Thanks for Registering",
+        "message": "Registration Complete",
+        "method": "Email"
+    }, {
+        "date": "01/01/16",
+        "subject": "Welcome to the Wellness Program",
+        "message": "Enrolled member welcome mailer",
+        "method": "Mail"
+    }],
+    "diagnoses": [{
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "diagnosisCode": "I10",
+        "diagnosis": "Essential (Primary) Hypertension",
+        "status": " <select id='diag-status'> <option>Valid</option> <option>Invalid</option></select> ",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "procedures": [{
+        "dateOfService": "02/03/2016",
+        "source": "Biometric Screening",
+        "value": "83036",
+        "code": "CPT",
+        "procedure": "Hemoglobin A1c",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "provider": "eHealthScreenings"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometric Screening",
+        "value": "80061",
+        "code": "CPT",
+        "procedure": "Lipid Panel",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "provider": "eHealthScreenings"
+    }, {
+        "dateOfService": "02/02/2015",
+        "source": "Medical Claim",
+        "value": "G1021",
+        "code": "HCPCS",
+        "procedure": "Colorectal cancer screening; colonoscopy on individual not meeting the criteria for high risk",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/10/2015",
+        "provider": "CENTRAL PROVIDER GROUP"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "value": "99381",
+        "code": "CPT",
+        "procedure": "Physical Exam",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "provider": "GENERAL MEDICAL ASSOCIATES"
+    }],
+    "medicalClaims": [{
+        "dateOfService": "02/03/2016",
+        "claimID": "<a class='show-medical-claim-content'>EH687168-20160203-531</a>",
+        "provider": "eHealthScreenings",
+        "claimStatus": "Valid",
+        "dateCreated": "02/5/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/02/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5139648-20150202-189</a>",
+        "provider": "CENTRAL PROVIDER GROUP",
+        "claimStatus": "Valid",
+        "dateCreated": "02/10/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5080029-20150112-124</a>",
+        "provider": "GENERAL MEDICAL ASSOCIATES",
+        "claimStatus": "Valid",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "medialEvents/events": [{
+        "medicalEventID": "",
+        "serviceDate": "",
+        "diagnosisCode": "",
+        "procedureCode": "",
+        "iCD9Proc": "",
+        "createdBy": ""
+    }],
+    "medialEvents/diagnosis": [{
+        "diagnosisCode": "",
+        "diagnosisDescription": "",
+        "delete": ""
+    }, {
+        "diagnosisCode": "x",
+        "diagnosisDescription": "x",
+        "delete": "x"
+    }],
+    "medialEvents/procedures": [{
+        "id": "",
+        "description": "",
+        "modifier": "",
+        "type": "",
+        "delete": ""
+    }, {
+        "id": "x",
+        "description": "x",
+        "modifier": "x",
+        "type": "x",
+        "delete": "x"
+    }],
+    "pharmacyClaims": [{
+        "claimID": "<a class='showRXclaims'>0002193115</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "9/15/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }, {
+        "claimID": "<a class='showRXclaims'>0004992167</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "12/20/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }],
+    "labTestResults": [{
+        "dateOfService": "",
+        "source": "",
+        "cPTCode": "",
+        "cPTName": "",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "",
+        "status": "",
+        "dateCreated": "",
+        "createdBy": ""
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-SYST.BP",
+        "cPTName": "Systolic blood pressure",
+        "lOINCCode": " 8480-6",
+        "testName": " Intravascular systolic",
+        "result": "147 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-DIAS.BP",
+        "cPTName": "Diastolic blood pressure",
+        "lOINCCode": " 8462-4",
+        "testName": " Intravascular diastolic",
+        "result": "95 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-WEIGHT",
+        "cPTName": "Weight in pounds",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "170 lbs",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-HEIGHT",
+        "cPTName": "Height in inches",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "64 in",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "HM-SYST.BP",
+        "cPTName": "Systolic blood pressure",
+        "lOINCCode": " 8480-6",
+        "testName": " Intravascular systolic",
+        "result": "145 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "HM-DIAS.BP",
+        "cPTName": "Diastolic blood pressure",
+        "lOINCCode": " 8462-4",
+        "testName": " Intravascular diastolic",
+        "result": "92 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "2093-3",
+        "testName": "Cholesterol",
+        "result": "146 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "13457-7",
+        "testName": "Cholesterol in LDL",
+        "result": "91 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "2085-9",
+        "testName": "Cholesterol in HDL",
+        "result": "55 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "2571-8",
+        "testName": "Triglyceride",
+        "result": "145 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "9830-1",
+        "testName": "Cholesterol.total/𠂼holesterol in HDL",
+        "result": "4.47",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "11054-4",
+        "testName": "Cholesterol in LDL/𠂼holesterol in HDL",
+        "result": "3.47",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "83036",
+        "cPTName": "Hemoglobin A1c",
+        "lOINCCode": "4548-4",
+        "testName": "Hemoglobin A1c, Blood",
+        "result": "6.5%",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }],
+    "overrides/preventive": [{
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Health Risk Assessment",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "01/15/16",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Biometric Screening",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "02/03/16",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Preventive Exam",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Cervical Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Breast Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Colorectal Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/18/2015",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Adult BMI Assessment",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/12/2015",
+        "overrideLink": "-"
+    }],
+    "overrides/chronic": [{
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Doctor's Visit for Hypertension",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Lipid Profile",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Hemoglobin A1c",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Flu Shot",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Doctor's Visit for Diabetes",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Retinal Eye Exam",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Medication Adherence - Statins",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Medication Adherence - Diabetes",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Kidney Disease Monitoring",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Health Coaching",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Disease Management",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Serum Creatinine",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Urine Microalbumin",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }],
+    "healthscore": 527
+}, {
+    "risksAndConditions/diabetes": [{
+        "type": "<a href='#ccmedclaim' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2016",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (4548-4)",
+        "value": "6.5"
+    }],
+    "risksAndConditions/hypertension": [{
+        "type": "<a href='#ccmedevent' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2015",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (8480-6)",
+        "value": "145"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Biometric Screening</a>",
+        "dateOfService": "02/03/2015",
+        "placeOfService": "eHealthScreenings",
+        "code": "LOINC (8462-4)",
+        "value": "92"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "12/20/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#ccmedevent' class='various'1>Rx Claim</a>",
+        "dateOfService": "09/15/2015",
+        "placeOfService": "WALGREENS",
+        "code": "NDC",
+        "value": "00172375860"
+    }, {
+        "type": "<a href='#cclab' class='various'1>Medical Claim</a>",
+        "dateOfService": "01/12/2015",
+        "placeOfService": "GENERAL MEDICAL ASSOCIATES",
+        "code": "ICD10CM",
+        "value": "I10"
+    }],
+    "goalsAndActivities": [{
+        "severity": "",
+        "Assignment": "",
+        "points": "",
+        "completionDate": "",
+        "edit": ""
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Online Stress Course",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a href='#editAssignment' class='various'>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Build Nutrition Plan",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }, {
+        "severity": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "Assignment": "<i class='fa fa-share-square'></i>&nbsp; Walk 10,000 Steps Daily",
+        "points": "<span>100</span>",
+        "completionDate": "-",
+        "edit": "<a>Edit&nbsp; <i class='fa fa-pencil'></i></a>"
+    }],
+    "family": [{
+        "lastName": "Simmons",
+        "firstName": "Judy",
+        "memberID": "0022222201",
+        "dateOfBirth": "12/20/1964",
+        "relationship": "Subscriber",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>David</a>",
+        "memberID": "0022222202",
+        "dateOfBirth": "08/01/1963",
+        "relationship": "Spouse",
+        "currentPreventiveCompliance": "N",
+        "priorPreventiveCompliance": "Y"
+    }, {
+        "lastName": "<a>Simmons</a>",
+        "firstName": "<a>Danny</a>",
+        "memberID": "0022222203",
+        "dateOfBirth": "06/01/1999",
+        "relationship": "Dependent",
+        "currentPreventiveCompliance": "Y",
+        "priorPreventiveCompliance": "Y"
+    }],
+    "messaging": [{
+        "date": "02/05/16",
+        "subject": "Intro",
+        "message": "Hi Judy, my name is Amy Barnes, and I'm a registered nurse here to help you manage your diabetes and answer your questions. Is now a good time to talk?",
+        "method": "Text"
+    }, {
+        "date": "02/05/16",
+        "subject": "Diabetes Management Introduction",
+        "message": "The results from your recent health screening indicate your A1C is above 6.5%.  An A1C test estimates your average blood sugar levels over the past three months, and a value above 6.5% is considered diabetic. This is something we can work on together to ensure you live a long, healthy life...  ",
+        "method": "Email"
+    }, {
+        "date": "02/05/16",
+        "subject": "Biometric Screening Results",
+        "message": "Guess what, Judy? Your biometric results are in, and you just earned 500 points!",
+        "method": "Push Notification"
+    }, {
+        "date": "02/05/16",
+        "subject": "You Just Earned 500 Points: See Your Results",
+        "message": "Hi Judy, Nice work completing your biometric test! This important screening can detect conditions early - before they become big health problems - and early detection can lead to a healthier, longer life.",
+        "method": "Email"
+    }, {
+        "date": "01/22/16",
+        "subject": "Make this a new you new year!",
+        "message": "Five simple ways to help you shed those post-holiday pounds that actually work: Drink Water, Especially Before Meals. ... Eat Eggs For Breakfast. ... Drink Coffee (Preferably Black) ... Drink Green Tea. ... Cook With Coconut Oil ...",
+        "method": "Email"
+    }, {
+        "date": "01/18/16",
+        "subject": "Log In Today and Start Earning Points",
+        "message": "Let's get started! Log in now to start your journey to becoming a healthier you. It's so simple, we've created custom programs just for you... ",
+        "method": "Email"
+    }, {
+        "date": "01/15/16",
+        "subject": "Thanks for Registering",
+        "message": "Registration Complete",
+        "method": "Email"
+    }, {
+        "date": "01/01/16",
+        "subject": "Welcome to the Wellness Program",
+        "message": "Enrolled member welcome mailer",
+        "method": "Mail"
+    }],
+    "diagnoses": [{
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "diagnosisCode": "I10",
+        "diagnosis": "Essential (Primary) Hypertension",
+        "status": " <select id='diag-status'> <option>Valid</option> <option>Invalid</option></select> ",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "procedures": [{
+        "dateOfService": "02/03/2016",
+        "source": "Biometric Screening",
+        "value": "83036",
+        "code": "CPT",
+        "procedure": "Hemoglobin A1c",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "provider": "eHealthScreenings"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometric Screening",
+        "value": "80061",
+        "code": "CPT",
+        "procedure": "Lipid Panel",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "provider": "eHealthScreenings"
+    }, {
+        "dateOfService": "02/02/2015",
+        "source": "Medical Claim",
+        "value": "G1021",
+        "code": "HCPCS",
+        "procedure": "Colorectal cancer screening; colonoscopy on individual not meeting the criteria for high risk",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/10/2015",
+        "provider": "CENTRAL PROVIDER GROUP"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Medical Claim",
+        "value": "99381",
+        "code": "CPT",
+        "procedure": "Physical Exam",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "provider": "GENERAL MEDICAL ASSOCIATES"
+    }],
+    "medicalClaims": [{
+        "dateOfService": "02/03/2016",
+        "claimID": "<a class='show-medical-claim-content'>EH687168-20160203-531</a>",
+        "provider": "eHealthScreenings",
+        "claimStatus": "Valid",
+        "dateCreated": "02/5/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/02/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5139648-20150202-189</a>",
+        "provider": "CENTRAL PROVIDER GROUP",
+        "claimStatus": "Valid",
+        "dateCreated": "02/10/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "claimID": "<a class='show-medical-claim-content'>P5080029-20150112-124</a>",
+        "provider": "GENERAL MEDICAL ASSOCIATES",
+        "claimStatus": "Valid",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }],
+    "medialEvents/events": [{
+        "medicalEventID": "",
+        "serviceDate": "",
+        "diagnosisCode": "",
+        "procedureCode": "",
+        "iCD9Proc": "",
+        "createdBy": ""
+    }],
+    "medialEvents/diagnosis": [{
+        "diagnosisCode": "",
+        "diagnosisDescription": "",
+        "delete": ""
+    }, {
+        "diagnosisCode": "x",
+        "diagnosisDescription": "x",
+        "delete": "x"
+    }],
+    "medialEvents/procedures": [{
+        "id": "",
+        "description": "",
+        "modifier": "",
+        "type": "",
+        "delete": ""
+    }, {
+        "id": "x",
+        "description": "x",
+        "modifier": "x",
+        "type": "x",
+        "delete": "x"
+    }],
+    "pharmacyClaims": [{
+        "claimID": "<a class='showRXclaims'>0002193115</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "9/15/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }, {
+        "claimID": "<a class='showRXclaims'>0004992167</a>",
+        "providerName": "Walgreens",
+        "dateOfService": "12/20/2015",
+        "totalCharged": "$20",
+        "totalDeductible": "$0",
+        "totalPaid": "$20",
+        "claimStatus": "Paid"
+    }],
+    "labTestResults": [{
+        "dateOfService": "",
+        "source": "",
+        "cPTCode": "",
+        "cPTName": "",
+        "lOINCCode": "",
+        "testName": "",
+        "result": "",
+        "status": "",
+        "dateCreated": "",
+        "createdBy": ""
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-SYST.BP",
+        "cPTName": "Systolic blood pressure",
+        "lOINCCode": " 8480-6",
+        "testName": " Intravascular systolic",
+        "result": "147 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/12/2015",
+        "source": "Biometrics data via EDI lab file",
+        "cPTCode": "HM-DIAS.BP",
+        "cPTName": "Diastolic blood pressure",
+        "lOINCCode": " 8462-4",
+        "testName": " Intravascular diastolic",
+        "result": "95 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/20/2015",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-WEIGHT",
+        "cPTName": "Weight in pounds",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "170 lbs",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "01/15/2016",
+        "source": "First Time Experience",
+        "cPTCode": "HM-HEIGHT",
+        "cPTName": "Height in inches",
+        "lOINCCode": " ",
+        "testName": " ",
+        "result": "64 in",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "01/15/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "HM-SYST.BP",
+        "cPTName": "Systolic blood pressure",
+        "lOINCCode": " 8480-6",
+        "testName": " Intravascular systolic",
+        "result": "145 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "HM-DIAS.BP",
+        "cPTName": "Diastolic blood pressure",
+        "lOINCCode": " 8462-4",
+        "testName": " Intravascular diastolic",
+        "result": "92 MMHG",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "2093-3",
+        "testName": "Cholesterol",
+        "result": "146 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "13457-7",
+        "testName": "Cholesterol in LDL",
+        "result": "91 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "2085-9",
+        "testName": "Cholesterol in HDL",
+        "result": "55 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "2571-8",
+        "testName": "Triglyceride",
+        "result": "145 MG/DL",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "9830-1",
+        "testName": "Cholesterol.total/𠂼holesterol in HDL",
+        "result": "4.47",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "80061",
+        "cPTName": "Lipid panel",
+        "lOINCCode": "11054-4",
+        "testName": "Cholesterol in LDL/𠂼holesterol in HDL",
+        "result": "3.47",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }, {
+        "dateOfService": "02/03/2016",
+        "source": "Biometrics data via eHealthScreenings",
+        "cPTCode": "83036",
+        "cPTName": "Hemoglobin A1c",
+        "lOINCCode": "4548-4",
+        "testName": "Hemoglobin A1c, Blood",
+        "result": "6.5%",
+        "status": "<select> <option>Valid</option> <option>Invalid</option> </select>",
+        "dateCreated": "02/05/2016",
+        "createdBy": "SYSTEM"
+    }],
+    "overrides/preventive": [{
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Health Risk Assessment",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "01/15/16",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Biometric Screening",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "02/03/16",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-share-square'></i>&nbsp; Preventive Exam",
+        "required": "<span class='strong red'>Yes</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Cervical Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Breast Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Colorectal Cancer Screening",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/18/2015",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Adult BMI Assessment",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "01/12/2015",
+        "overrideLink": "-"
+    }],
+    "overrides/chronic": [{
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Doctor's Visit for Hypertension",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Lipid Profile",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Hemoglobin A1c",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Flu Shot",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Doctor's Visit for Diabetes",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Retinal Eye Exam",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Medication Adherence - Statins",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Medication Adherence - Diabetes",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Kidney Disease Monitoring",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Health Coaching",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-exclamation-triangle orange'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Disease Management",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "-",
+        "overrideLink": "<a>override compliance</a>"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Serum Creatinine",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }, {
+        "status": "<i class='fa fa-check-circle green'></i>",
+        "healthActions": "<i class='fa fa-info-circle'></i>&nbsp; Urine Microalbumin",
+        "required": "<span class='strong gray'>No</span>",
+        "lastCompleted": "02/03/2016",
+        "overrideLink": "-"
+    }],
+    "healthscore": 527
+}]
